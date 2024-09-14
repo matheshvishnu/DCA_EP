@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: rgb(102, 179, 166);
+    padding: 11px;
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    color: #ea0eea;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+    background-color: #a59e59;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    background-color: rgb(188, 66, 66);
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(109, 173, 153);
+    color:aqua;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    margin: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.details, .contact-form {
+    padding: 20px;
+    text-align: center;
+    background-color: aqua;
+    height: 2%;
+}
+.details img {
+    margin: 0px;
+    width: 400px;
+    height: auto;
+}
+
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #333;
+    color: rgb(181, 11, 11);
+    border: none;
+    cursor: pointer;
+}
